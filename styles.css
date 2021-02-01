@@ -1,0 +1,81 @@
+.mynav{
+    margin: 1rem 2rem;
+} 
+
+.brand-bg{
+    background-color: white;
+    border-radius: 2rem;
+}
+
+.col-lg-4{
+    text-align: center;
+}
+
+.coun{
+    padding: 3rem 2rem;
+    color: #70af85;
+}
+
+.iconHeading{
+    margin-top: -2.5rem;
+
+}
+
+.coun:hover{
+    color :#81b214;
+}
+
+.brand-bg a{
+    padding: 2rem 2rem;
+}
+
+.navbar-nav{
+    position: absolute;
+    left: 70rem;
+}
+
+.nav-item a p{
+    margin: 0;
+    font-size: 1.15rem;
+    padding: 0.5rem 1rem;
+    font-weight: 600;
+}
+
+.nav-link p:hover{
+    color: #81b214;
+}
+
+#features{
+    padding: 1rem 2rem 2rem 2rem;
+}
+
+.bottomDet{
+    color: #6c757d;
+    height: 8rem;
+    background-color: #212529;
+    text-align: center;
+}
+
+.bottomDet p{
+    padding-top: 5rem;
+}
+
+
+
+
+@media (max-width : 1024px){
+    .navbar-nav{
+        top: 8rem;
+        left: 52rem;
+    }
+
+    .nav-item a p{
+        color: #343a40;
+    }
+
+    .nav-item a p:hover{
+        background-color: #81b214;
+        color: #343a40;
+        border-radius: 5rem;
+    }
+}
